@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #0f0000, #4819bf);
+  font-family: sans-serif;
+  padding: 40px;
+}
+
+.container1 {
+  background-color: beige;
+  padding: 30px;
+  border-radius: 17px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.srci {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid beige;
+  border-radius: 10px;
+  padding: 2px 12px;
+  margin-bottom: 30px;
+}
+
+.srci input {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  flex: 1;
+}
+
+.srci input:focus-visible {
+  outline: none;
+}
+
+.srci button {
+  background-color: transparent;
+  color: #ffa500;
+  border: none;
+  cursor: pointer;
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+}
+.container-cards > div {
+  margin-top: 75px;
+  padding: 16px;
+  border-radius: 10px;
+  min-width: 150px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+ width: 230px;
+  height: 130px;
+    
+}
+
+.img_games img{
+  height: 80px;
+  width: 100px;
+  border-radius: 45px;
+}
+
+/*começo ds confuçao 1*/
+.cor-nome{
+   background-color: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.nome_games {
+ background-color: #FFD700; 
+  padding: 15px;
+  border-radius: 8px;
+  color: #000; 
+  height: 100px;
+}
+
+
+.cor-img{
+  background-color: azure;
+  padding: 10px;
+}
+.img_games {
+  background-color: #dbeafe; 
+  padding: 2px;
+  border-radius: 8px;
+  color: #000;
+  height: 100px;
+}
+
+
+.cor-gen{
+  background-color: azure;
+  padding: 10px;
+}
+.gene_games {
+  background-color: #e0ffe0; 
+  padding: 8px;
+  color: #000;
+  height: 100px;
+}
+
+
+.cor-lanca{
+  background-color: azure;
+  padding: 4px;
+  
+}
+.lanca_games {
+  width: 210px;
+  background-color: #e0d4fd; 
+   padding: 2px;
+  color: #000;
+  height: 100px;
+}
+
+
+.cor-nota{
+  background-color: azure;
+  padding: 10px;
+}
+.nota_games {
+  background-color: #fff4d4; 
+   padding: 8px;
+  color: #000;
+  height: 100px;
+  
+}
+
+#show{
+  display: none;
+}
+
+#show.show {
+  display: flex; 
+}
+
+/*responsividade*/
+
+@media (max-width:720px) {
+  .container-cards{
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+.container-cards > div{
+width: 90%;
+margin-bottom: 1rem;
+}
+
+
+ form.srci{
+  flex-direction: column;
+  gap: 10px;
+ }
+
+  form.srci input, form.srci button {
+    width: 100%;
+  }
+.lanca_games{
+  width: 260px;
+}
+ 
+}

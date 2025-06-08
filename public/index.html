@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <title>API dos Games</title>
+</head>
+<body>
+
+   
+  <div class="container1">
+    <!-- Formulário -->
+    <form class="srci" id="src">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="search" placeholder="write your character" id="valor_input" />
+      <button type="submit" id="but">
+        pesquisar <i class="fa-solid fa-user-ninja"></i>
+      </button>
+    </form>
+
+     <div id="alert"></div>
+</div>
+
+   <div class="container-traparente">
+    <section class="container-cards" id="show">
+     
+     <div class="cor-nome">
+      <div class="nome_games">
+        <h3>NOME <i class="fa-solid fa-user"></i></h3>
+        <p id="title_persona"></p>
+      </div>
+    </div>
+
+
+     <div class="cor-img">
+      <div class="img_games">
+        <h3>CAPA <i class="fa-solid fa-image"></i></h3>
+        <img id="img-persona" src="http://example.com" alt="imagem não encontrada" />
+      </div>
+      </div>
+     
+      <div class="cor-gen">
+      <div class="gene_games">
+        <h3>GENERO <i class="fa-solid fa-gamepad"></i></h3>
+        <p id="genero_gm"></p>
+      </div>
+      </div>
+
+
+      <div class="cor-lanca">
+      <div class="lanca_games">
+        <h3>LANÇAMENTO <i class="fa-solid fa-calendar"></i></h3>
+        <p id="lanca_gm"></p>
+      </div>
+      </div>
+
+
+     <div class="cor-nota">
+      <div class="nota_games">
+        <h3>NOTA <i class="fa-solid fa-star"></i></h3>
+        <p id="nota_gm"></p>
+      </div>
+      </div>
+
+
+
+
+    </section>
+    </div><!--container transparente-->
+ 
+<script src="jogos.js"></script>
+ 
+</body>
+</html>
